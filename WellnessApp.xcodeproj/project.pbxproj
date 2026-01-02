@@ -11,6 +11,15 @@
 		A1000003294A1A0000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004294A1A0000000001 /* ContentView.swift */; };
 		A1000005294A1A0000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006294A1A0000000001 /* Assets.xcassets */; };
 		A1000007294A1A0000000001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000008294A1A0000000001 /* Preview Assets.xcassets */; };
+		A1000010294A1A0000000001 /* Managers/DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000013294A1A0000000001 /* Managers/DataStore.swift */; };
+		A1000011194A1A0000000001 /* Managers/HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014294A1A0000000001 /* Managers/HealthManager.swift */; };
+		A1000012194A1A0000000001 /* Models/HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000015294A1A0000000001 /* Models/HealthData.swift */; };
+		A1000013194A1A0000000001 /* Views/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016294A1A0000000001 /* Views/DashboardView.swift */; };
+		A1000014194A1A0000000001 /* Views/ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000017294A1A0000000001 /* Views/ExerciseView.swift */; };
+		A1000015194A1A0000000001 /* Views/HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000018294A1A0000000001 /* Views/HealthView.swift */; };
+		A1000016194A1A0000000001 /* Views/NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000019294A1A0000000001 /* Views/NutritionView.swift */; };
+		A1000017194A1A0000000001 /* Views/ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001A294A1A0000000001 /* Views/ProfileView.swift */; };
+		A1000018194A1A0000000001 /* Views/SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001B294A1A0000000001 /* Views/SleepView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		A1000004294A1A0000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000006294A1A0000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000008294A1A0000000001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1000013294A1A0000000001 /* Managers/DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Managers/DataStore.swift"; sourceTree = "<group>"; };
+		A1000014294A1A0000000001 /* Managers/HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Managers/HealthManager.swift"; sourceTree = "<group>"; };
+		A1000015294A1A0000000001 /* Models/HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/HealthData.swift"; sourceTree = "<group>"; };
+		A1000016294A1A0000000001 /* Views/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/DashboardView.swift"; sourceTree = "<group>"; };
+		A1000017294A1A0000000001 /* Views/ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ExerciseView.swift"; sourceTree = "<group>"; };
+		A1000018294A1A0000000001 /* Views/HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/HealthView.swift"; sourceTree = "<group>"; };
+		A1000019294A1A0000000001 /* Views/NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/NutritionView.swift"; sourceTree = "<group>"; };
+		A100001A294A1A0000000001 /* Views/ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ProfileView.swift"; sourceTree = "<group>"; };
+		A100001B294A1A0000000001 /* Views/SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SleepView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,15 @@
 				A1000004294A1A0000000001 /* ContentView.swift */,
 				A1000006294A1A0000000001 /* Assets.xcassets */,
 				A1000009294A1A0000000001 /* Preview Content */,
+				A1000013294A1A0000000001 /* Managers/DataStore.swift */,
+				A1000014294A1A0000000001 /* Managers/HealthManager.swift */,
+				A1000015294A1A0000000001 /* Models/HealthData.swift */,
+				A1000016294A1A0000000001 /* Views/DashboardView.swift */,
+				A1000017294A1A0000000001 /* Views/ExerciseView.swift */,
+				A1000018294A1A0000000001 /* Views/HealthView.swift */,
+				A1000019294A1A0000000001 /* Views/NutritionView.swift */,
+				A100001A294A1A0000000001 /* Views/ProfileView.swift */,
+				A100001B294A1A0000000001 /* Views/SleepView.swift */,
 			);
 			path = WellnessApp;
 			sourceTree = "<group>";
@@ -134,6 +161,15 @@
 			files = (
 				A1000003294A1A0000000001 /* ContentView.swift in Sources */,
 				A1000001294A1A0000000001 /* WellnessAppApp.swift in Sources */,
+				A1000010294A1A0000000001 /* Managers/DataStore.swift in Sources */,
+				A1000011194A1A0000000001 /* Managers/HealthManager.swift in Sources */,
+				A1000012194A1A0000000001 /* Models/HealthData.swift in Sources */,
+				A1000013194A1A0000000001 /* Views/DashboardView.swift in Sources */,
+				A1000014194A1A0000000001 /* Views/ExerciseView.swift in Sources */,
+				A1000015194A1A0000000001 /* Views/HealthView.swift in Sources */,
+				A1000016194A1A0000000001 /* Views/NutritionView.swift in Sources */,
+				A1000017194A1A0000000001 /* Views/ProfileView.swift in Sources */,
+				A1000018194A1A0000000001 /* Views/SleepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
